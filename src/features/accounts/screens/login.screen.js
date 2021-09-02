@@ -30,7 +30,7 @@ export const LoginScreen = ({ navigation }) => {
         </LoadingContainer>
       ) : (
         <>
-          {/* <Title>Meals To Go</Title> */}
+          {/* <Title>Some title</Title> */}
           <AccountContainer>
             <AuthInput
               label="E-mail"

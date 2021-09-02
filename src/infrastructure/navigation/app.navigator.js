@@ -4,6 +4,7 @@ import { Ionicons } from "@expo/vector-icons";
 
 import { CartContextProvider } from "../../services/cart/cart.context";
 import { CheckoutNavigator } from "./checkout.navigator";
+import { MainNavigator } from "./main.navigator";
 import { MapScreen } from "../../features/map/screens/map.screen";
 import { MainScreen } from "../../features/main/screens/main.screen";
 import { SettingsNavigator } from "./settings.navigator";
@@ -37,7 +38,7 @@ export const AppNavigator = () => (
           <Tab.Navigator
             screenOptions={createScreenOptions}
           >
-            <Tab.Screen name="Home" component={MainScreen} />
+            <Tab.Screen name="Home" component={MainNavigator} />
             <Tab.Screen name="Checkout" component={CheckoutNavigator} />
             <Tab.Screen name="Map" component={MapScreen} />
             <Tab.Screen name="Settings" component={SettingsNavigator} />

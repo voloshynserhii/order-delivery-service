@@ -15,14 +15,14 @@ import { Spacer } from "../../../components/spacer/spacer.component";
 import { SafeArea } from "../../../components/utility/safe-area.component";
 import { colors } from "../../../infrastructure/theme/colors";
 
-export const MainScreen = ({ navigation }) => {
+export const ParametersScreen = ({ navigation }) => {
   // const { isLoading, setIsLoading } = useState(false);
 
   return (
     <SafeArea>
       <MainBackground>
         <Layer />
-        <Title>What do you want to transport?</Title>
+        <Title>What parameters of your goods?</Title>
         <MainInput
           label="Choose category"
           value=""

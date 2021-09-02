@@ -13,12 +13,13 @@ import { useFonts as useLato, Lato_400Regular } from "@expo-google-fonts/lato";
 import { Navigation } from "./src/infrastructure/navigation";
 
 const firebaseConfig = {
-  apiKey: "AIzaSyC3qd_2hBf6wIqTARo61zrXFaIBg1-E2l0",
-  authDomain: "mealstogo-1a733.firebaseapp.com",
-  projectId: "mealstogo-1a733",
-  storageBucket: "mealstogo-1a733.appspot.com",
-  messagingSenderId: "437443226435",
-  appId: "1:437443226435:web:d15747557c55cc952fddf6",
+  apiKey: "AIzaSyDC_iclINCNQgOmiYunbMgiJ4oLUhHK51c",
+  authDomain: "auth-react-native-ea436.firebaseapp.com",
+  databaseURL: "https://auth-react-native-ea436-default-rtdb.europe-west1.firebasedatabase.app",
+  projectId: "auth-react-native-ea436",
+  storageBucket: "auth-react-native-ea436.appspot.com",
+  messagingSenderId: "306458376115",
+  appId: "1:306458376115:web:0cafab1633c52f630d7dc6"
 };
 
 if (!firebase.apps.length) {
